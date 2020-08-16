@@ -1,2 +1,9 @@
 
-body { background-color: lightblue;}
+body { 
+		background-color: lightblue;
+}
+
+section {
+		display: flex;
+		flex-direction: column;
+}
