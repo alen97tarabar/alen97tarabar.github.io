@@ -18,5 +18,24 @@
 	</center> 
 </p>
 </section>
+
+<div class="image-head">
+  <div class="centering-hack">
+    <h1>Something HTML</h1>
+  </div>
+</div>
+
+<script>
+var url = ['http://lorempixel.com/400/200/sports/' ,
+            'http://lorempixel.com/400/200/city/'];
+curentImageIndex = 0;
+setInterval(function(){ 
+  console.log(url[curentImageIndex])
+ var p = $('.image-head');
+ p.css("background","url("+url[curentImageIndex++] + ")");
+ if(curentImageIndex>= url.length){curentImageIndex = 0}
+ }, 1000);
+ </script>
+ 
 </body>
 </html>
