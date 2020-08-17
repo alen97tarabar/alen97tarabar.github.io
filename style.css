@@ -14,8 +14,13 @@ section {
 			 url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.tff') format('truetype');
 }
 
+@font-face {
+		font-family: PhotographicSignature;
+		src: url('alen97tarabar.github.io/Fonts/Photographic Signature.ttf') format('truetype');
+	
+}
 h1 {
-		font-family: 'HappyTimesAtTheIkob', Arial, sans-serif;
+		font-family: 'PhotographicSignature', Arial, sans-serif;
 		font-weight:normal;
 		font-style:normal;
 }
