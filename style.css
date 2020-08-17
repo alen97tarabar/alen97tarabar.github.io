@@ -9,12 +9,6 @@ section {
 }
 
 @font-face {
-		font-family: HappyTimesAtTheIkob;
-		src: url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.woff') format('woff'),
-			 url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.tff') format('truetype');
-}
-
-@font-face {
 		font-family: PhotographSignature;
 		src: url('alen97tarabar.github.io/Fonts/Photograph Signature.ttf') format('truetype');
 	
