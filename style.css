@@ -24,3 +24,8 @@ h1 {
 		font-weight:normal;
 		font-style:normal;
 }
+
+div.image-head {
+		height: 500px;
+		width:300px;
+}
