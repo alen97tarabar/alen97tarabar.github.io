@@ -15,12 +15,12 @@ section {
 }
 
 @font-face {
-		font-family: PhotographicSignature;
-		src: url('alen97tarabar.github.io/Fonts/Photographic Signature.ttf') format('truetype');
+		font-family: PhotographSignature;
+		src: url('alen97tarabar.github.io/Fonts/Photograph Signature.ttf') format('truetype');
 	
 }
 h1 {
-		font-family: 'PhotographicSignature', Arial, sans-serif;
+		font-family: 'PhotographSignature', Arial, sans-serif;
 		font-weight:normal;
 		font-style:normal;
 }
