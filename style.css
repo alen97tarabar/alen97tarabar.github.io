@@ -12,6 +12,20 @@ section {
 		align-content: stretch;
 }
 
+.flex-parent {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    border: 2px solid #EEE;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
 @font-face {
 		font-family: HappyTimesAtTheIkob;
 		src: url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.woff') format('woff'),
