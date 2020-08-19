@@ -5,11 +5,11 @@ body {
 
 section {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: center;
 		align-items: center;
-		align-content: center;
+		align-content: stretch;
 }
 
 @font-face {
