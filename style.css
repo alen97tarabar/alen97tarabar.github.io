@@ -25,6 +25,15 @@ section {
 }
 */
 
+.background-img {
+	background-image: ("alen97tarabar.github.io/Images/IMG_20181103_075731.jpg");
+	width: 500px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
 .flex-parent {
     height: 400px;
     width: 100%;
