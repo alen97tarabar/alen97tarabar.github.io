@@ -20,6 +20,11 @@ section {
 		align-content: stretch;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* #Contact {
 		text-decoration: overline;
 }
