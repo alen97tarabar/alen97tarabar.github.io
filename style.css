@@ -25,13 +25,25 @@ img {
   height: auto;
 }
 
+.Resume {
+		background-image:("alen97tarabar.github.io/Images/IMG_20181103_075731.jpg");
+}
+
+.Profile {
+		background-image:("alen97tarabar.github.io/Images/IMG_20181103_075731.jpg");
+}
+
+.Contact {
+		background-image:("alen97tarabar.github.io/Images/IMG_20181103_075731.jpg");
+}
+
 /* #Contact {
 		text-decoration: overline;
 }
 
 
 #background-img {
-	background-image: ("alen97tarabar.github.io/Images/IMG_20181103_075731.jpg");
+	background-image:("alen97tarabar.github.io/Images/IMG_20181103_075731.jpg");
 	width: 500px;
 	height: 100%;
 	background-repeat: no-repeat;
