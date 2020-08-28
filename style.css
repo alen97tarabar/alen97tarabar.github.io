@@ -2,7 +2,7 @@
 .header {
 	  padding: 60px;
 	  text-align: center;
-	  background: #1abc9c;
+	  background: #6c757dd1;
 	  color: white;
 	  font-size: 30px;
 }
@@ -84,7 +84,8 @@ img {
 	
 }
 h1 {
-		font-family: 'PhotographSignature';
+		font-family:PhotographSignature;
+		src: url('alen97tarabar.github.io/Fonts/Photograph Signature.ttf') format('truetype');
 		font-weight:normal;
 		font-style:normal;
 }
@@ -100,7 +101,7 @@ h1 {
 	  left: 0;
 	  bottom: 0;
 	  width: 100%;
-	  background-color: red;
+	  background-color: #4a4a4a;
 	  color: white;
 	  text-align: center;
 }
