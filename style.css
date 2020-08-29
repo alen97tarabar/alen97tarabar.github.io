@@ -58,7 +58,7 @@ body, html {
 */
 
 .bg {
-	background-image:url("Images/IMG_20190212_114219.jpg");
+	background-image:url("Images/BG-Lila.png");
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -72,7 +72,6 @@ body, html {
     height: 400px;
     width: 100%;
     margin: auto;
-    border: 2px solid #EEE;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
