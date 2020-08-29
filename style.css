@@ -30,11 +30,11 @@ img {
 }
 
 .Profile {
-		background-image:url("/Images/IMG_20181103_075731.jpg");
+		background-image:url("Images/IMG_20181103_075731.jpg");
 }
 
 .Contact {
-		background-image:url(".../Images/IMG_20181103_075731.jpg");
+		background-image:url("Images/IMG_20181103_075731.jpg");
 }
 
 /* #Contact {
@@ -43,7 +43,7 @@ img {
 */
 
 .bg {
-	background-image:url("alen97tarabar.github.io/Images/IMG_20190212_114219.jpg");
+	background-image:url("Images/IMG_20190212_114219.jpg");
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
