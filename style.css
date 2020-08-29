@@ -44,10 +44,11 @@ img {
 
 .background-img {
 	background-image:("alen97tarabar.github.io/Images/IMG_20190212_114219.jpg");
-	width: 500px;
+	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: center;
 }
 
 
