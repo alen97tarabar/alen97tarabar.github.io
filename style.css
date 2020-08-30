@@ -101,10 +101,16 @@ h1 {
 
 h2 {
 		font-family: HappyTimesAtTheIkob;
-		src: url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.woff') format('woff'),
-		url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.tff') format('truetype');
+		src: url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.woff') format('woff'), url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.tff') format('truetype');
 		font-weight:normal;
 		font-style:normal;
+}
+
+.h2, h2 {
+		font-size: 2.8rem;
+		color: white;
+		position: absolute;
+		margin: 10% 0% 0% -6%;
 }
 
 .image-head {
