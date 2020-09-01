@@ -22,21 +22,31 @@
 <div class="flex-parent" style="flex-flow: row nowrap; place-content: stretch center; align-items: center;">
 	<div class="flex-child">
 		<center> 
-			<div class="Profile" onmouseover="javascript: "> <a href="Profile.html"> <u> <h1>.Profile.</h1> </u> </a> </div>
+			<div class="Profile" onmouseover="javascript: "> <!-- <a href="Profile.html"> <u> <h1>.Profile.</h1> </u> </a> --> </div>
 		</center>
 	</div>
 
 	<div class="flex-child">
 		<center>  
-			<div class="Resume"> <h2> <u> <a href="Profile.html">.Profile.</a><a href="Resume.html">Resumé</a><a href="Contact.html">.Contact.</a> </u> </h2> </div>
+			<div class="Resume"> <h2> <u> <a href="Profile.html">.Profile.</a><a href="Resume.html">Resumé</a><a href="#section2">.Applications.</a> </u> </h2>
+			<div class="ScrollBtn"> <button type="button"> Demos </button> </div>
+			</div>
 		</center>
 	</div>
 
 	<div class="flex-child">
 		<center> 
-			<div class="Contact"> <a href="Contact.html"> <u> <h1>.Contact.</h1> </u> </a> </div>
+			<div class="Contact"> <!-- <a href="Contact.html"> <u> <h1>.Contact.</h1> </u> </a> --> </div>
 		</center>
 	</div>
+</div>
+
+<div class="main" id="section1">
+
+</div>
+
+<div class="main" id="section2">
+
 </div>
 
 </div>
@@ -57,7 +67,7 @@ var url = ['alen97tarabar.github.io/Images/IMG_20181103_075731.jpg' ,
 curentImageIndex = 0;
 setInterval(function(){ 
   console.log(url[curentImageIndex])
- var p = $('.image-head');
+ var p = $('.Contact');
  p.css("background","url("+url[curentImageIndex++] + ")");
  if(curentImageIndex>= url.length){curentImageIndex = 0}
  }, 1000);

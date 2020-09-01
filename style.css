@@ -2,10 +2,9 @@
 .header {
 	  padding: 60px;
 	  text-align: center;
-	  background: #6c757dd1;
+	  background: rgba(0,0,0,0.5);
 	  color: white;
 	  font-size: 30px;
-	  opacity: 0.5;
 	  position: absolute;
 	  width: 100%;
 }
@@ -26,6 +25,23 @@ section {
 body, html {
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+a:link {
+	color: white !important;
+	font-size: 2.8rem !important;
+	color: white !important;
+	/* position: absolute !important; */
+	margin: 10% 0% 0% 0% !important;
+}
+
+a:hover{
+	color: yellow !important;
 }
 
 .Resume {
@@ -60,7 +76,7 @@ body, html {
 .bg {
 	background-image:url("Images/bg-Lila.png");
 	width: 100%;
-	height: 100%;
+	height: 1500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: center; */
@@ -101,16 +117,25 @@ h1 {
 
 h2 {
 		font-family: HappyTimesAtTheIkob;
-		src: url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.woff') format('woff'), url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.tff') format('truetype');
+		src: url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.woff') format('woff'),
+			 url('alen97tarabar.github.io/Fonts/happy-times-at-the-ikob.tff') format('truetype');
 		font-weight:normal;
 		font-style:normal;
 }
 
 .h2, h2 {
-		font-size: 2.8rem;
-		color: white;
-		position: absolute;
-		margin: 10% 0% 0% -6%;
+		font-size: 2.8rem !important;
+		color: white !important;
+		position: absolute !important; 
+		margin: 7% 0% 0% -6% !important;
+}
+
+#section1 {
+  height: 520px;
+}
+
+#section2 {
+  height: 600px;
 }
 
 .image-head {
