@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head> 
-
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
 <script src="https://kit.fontawesome.com/060b795035.js" crossorigin="anonymous"></script>
 
-</head>
+<script>
+$(window).on("load",function(){
+     $(".loader").fadeOut("slow");
+});
+</script>
 
+<script>
+$(document).ready(function() {
+
+        $('.ResumeLink').hover(
+
+           function () {
+              $('.Resume').css('background-image', 'url("Images/IMG-10.jpg")');
+           }, 
+
+           function () {
+              $('.Resume').css('background-image', 'url("Images/IMG-5.jpg")');
+           }
+        );
+
+     });
+</script>
+</head>
 <body>
 
-<div class="header">
-  <p>Add language options somewhere here</p>
+<div class="header" id="section">
+  <p>dit is titel</p>
   <h1>Hello World</h1>
 </div>
 
@@ -28,7 +52,7 @@
 
 	<div class="flex-child">
 		<center>  
-			<div class="Resume"> <h2> <u> <a href="Profile.html">.Profile.</a><a href="Resume.html">Resumé</a><a href="#section2">.Applications.</a> </u> </h2>
+			<div id="Resume"> <h2> <u> <a href="Profile.html">.Profile.</a><a href="Resume.html" target="_blank" id="LinkResume">Resumé</a><a href="#section2">.Contact.</a> </u> </h2>
 			<div class="ScrollBtn"> <button type="button"> Demos </button> </div>
 			</div>
 		</center>
@@ -46,9 +70,19 @@
 </div>
 
 <div class="main" id="section2">
-
+		<h3> 
+			<center>
+			<p> <br> Naam: Alen Tarabar
+				<br>Land: Nederland
+				<br>Provincie: Noord-Holland
+				<br>Stad: Purmerend
+				<br>Tel: 31 6 43853588
+				<br>Email: alen97tarabar@gmail.com
+			</p>
+			<p> <a href="#section"> Go back </a> </p>
+			</center>
+		</h3>
 </div>
-
 </div>
 
 <div class="footer">
@@ -61,17 +95,19 @@
 
 <i class="fas fa-gamepad fa-5x fa-spin"></i>
 -->
+
 <script>
-var url = ['alen97tarabar.github.io/Images/IMG_20181103_075731.jpg' ,
-            'alen97tarabar.github.io/Images/IMG_20181103_074956.jpg'];
-curentImageIndex = 0;
-setInterval(function(){ 
-  console.log(url[curentImageIndex])
- var p = $('.Contact');
- p.css("background","url("+url[curentImageIndex++] + ")");
- if(curentImageIndex>= url.length){curentImageIndex = 0}
- }, 1000);
- </script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementByClassName("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
