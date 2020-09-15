@@ -188,8 +188,13 @@ a#LinkResume:hover  #Resume {
 	    /* Too narrow to support three columns */
     @media all and (max-width: 640px) {
 		
+		.bg {
+			height: auto;
+			background-position: center;
+		}
+		
 		#container {
-			height: 400px;
+			height: 250px;
 			margin: 1% 0% 0% 0%;
 		}
 		
@@ -208,17 +213,17 @@ a#LinkResume:hover  #Resume {
         }
 		*/
 		#column-left-link{
-			top: 41%;
+			top: 43%;
 			left: 50%;
 		}
 		
 		#column-center-link{
-			top: 60%;
+			top: 59%;
 			left: 50%;
 		}
 		
 		#column-right-link{
-			top: 78%;
+			top: 74%;
 			left: 50%;
 		}
 		
