@@ -189,7 +189,8 @@ a#LinkResume:hover  #Resume {
     @media all and (max-width: 640px) {
 		
 		#container {
-			height: 460px;
+			height: 400px;
+			margin: 1% 0% 0% 0%;
 		}
 		
 		#container, #page {
@@ -207,17 +208,17 @@ a#LinkResume:hover  #Resume {
         }
 		*/
 		#column-left-link{
-			top: 42%;
+			top: 41%;
 			left: 50%;
 		}
 		
 		#column-center-link{
-			top: 63%;
+			top: 60%;
 			left: 50%;
 		}
 		
 		#column-right-link{
-			top: 84%;
+			top: 78%;
 			left: 50%;
 		}
 		
