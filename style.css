@@ -68,13 +68,49 @@ html::-webkit-scrollbar {
 
 a:link {
 	font-size: 1.8rem !important;
-	color: white !important;
+	color: white;
 	/* position: absolute !important; */
 	/* margin: 10% 0% 0% 0% !important; */
 }
 
 a:hover{
+	color: #00e7ff85;
+}
+
+a:visited {
+	color: white !important;
+}
+
+a:active {
 	color: #00e7ff85 !important;
+}
+
+.nav-link dropdown-toggle {
+	color: red !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #00e7ff85 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:visited {
+	color: white !important;
+}
+
+.navbar-brand{
+	color: white !important;
+}
+
+.navbar-brand:hover{
+	color: #00e7ff85 !important;
+}
+
+.navbar-brand:visited{
+	color: white;	
 }
 
 #Resume {
@@ -309,6 +345,7 @@ h2 {
 #loading-image {
   position: absolute;
   top: 50%;
+  left: 45%;
   z-index: 100;
 }
 
