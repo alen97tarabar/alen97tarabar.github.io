@@ -10,7 +10,10 @@ header {
 
 a.nav-link {
 	color: white;
-	background-color: #474747;
+}
+
+a.nav-link:hover {
+	color: #00e7ff85;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -73,18 +76,6 @@ a:link {
 	/* margin: 10% 0% 0% 0% !important; */
 }
 
-a:hover{
-	color: #00e7ff85;
-}
-
-a:visited {
-	color: white !important;
-}
-
-a:active {
-	color: #00e7ff85 !important;
-}
-
 .nav-link dropdown-toggle {
 	color: red !important;
 }
@@ -95,10 +86,6 @@ a:active {
 
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #00e7ff85 !important;
-}
-
-.navbar-light .navbar-nav .nav-link:visited {
-	color: white !important;
 }
 
 .navbar-brand{
@@ -119,6 +106,14 @@ a:active {
 		margin-top: 170%;
 		width: 300px;
 		height: 300px;
+}
+
+a {
+	color: white !important;
+}
+
+a:hover {
+	color: #00e7ff85 !important;
 }
 
 a#LinkResume {
@@ -164,7 +159,7 @@ a#LinkResume:hover  #Resume {
    #container > .column-left {
         margin: 4px;
         padding: 5px;
-        border: 1px solid #cccc33;
+        border: 3px outset #03ffea;
         border-radius: 7pt;
         background: #dddd88;
         flex: 3 1 33%;
@@ -176,8 +171,8 @@ a#LinkResume:hover  #Resume {
     #container> .column-center {
         margin: 4px;
         padding: 5px;
-        border: 1px solid #8888bb;
-        border-radius: 7pt;
+        border: 3px outset #03ffea;
+        border-radius: 0pt 7pt 7pt 0pt;
         background: #ccccff;
         flex: 1 6 33%;
         order: 1;
@@ -188,8 +183,8 @@ a#LinkResume:hover  #Resume {
     #container > .column-right {
         margin: 4px;
         padding: 5px;
-        border: 1px solid #8888bb;
-        border-radius: 7pt;
+        border: 3px outset #03ffea;
+        border-radius: 7pt 0pt 0pt 7pt;
         background: #ccccff;
         flex: 1 6 33%;
         order: 3;
@@ -200,25 +195,37 @@ a#LinkResume:hover  #Resume {
 	#column-left-link {
 		color: white; 
 		position: absolute; 
-		top: 50%; 
+		top: 58%; 
 		left: 15%; 
 		transform: translate(-50%, -50%);
+	}
+	
+	#column-left-link:hover{
+		color: #00e7ff85;
 	}
 	
 	#column-center-link {
 		color: white; 
 		position: absolute; 
-		top: 50%; 
+		top: 58%; 
 		left: 50%; 
 		transform: translate(-50%, -50%);
+	}
+	
+	#column-center-link:hover{
+		color: #00e7ff85;
 	}
 	
 	#column-right-link {
 		color: white; 
 		position: absolute; 
-		top: 50%; 
+		top: 58%; 
 		left: 85%; 
 		transform: translate(-50%, -50%);
+	}
+	
+	#column-right-link:hover{
+		color: #00e7ff85;
 	}
 	
 	    /* Too narrow to support three columns */
