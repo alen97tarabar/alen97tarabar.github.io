@@ -277,6 +277,13 @@ a#LinkResume:hover  #Resume {
 		
 	}
 	
+	@media all and (max-width: 300px) {
+		header {
+			height: 115px;
+			padding: 0px;
+		}
+	}
+	
 	
 div.centered {
 	position: absolute;
