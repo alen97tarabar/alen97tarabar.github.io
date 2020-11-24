@@ -279,9 +279,22 @@ a#LinkResume:hover  #Resume {
 	
 	@media all and (max-width: 300px) {
 		header {
-			height: 115px;
+			height: 90px;
 			padding: 0px;
 		}
+		
+		#column-left-link{
+			top: 29%;
+		}
+		
+		#column-center-link{
+			top: 42%;
+		}
+		
+		#column-right-link{
+			top: 55%;
+		}
+		
 	}
 	
 	
