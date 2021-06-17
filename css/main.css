@@ -2324,10 +2324,10 @@ body {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-image: url("../images/background_image.jpg");
+  /*background-image: url("../images/background_image.jpg");
   background-repeat: no-repeat;
   background-size: 1500px;
-  background-position: bottom;
+  background-position: bottom; */
 }
 
 .main {

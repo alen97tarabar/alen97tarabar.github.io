@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Creative CV</title>
+    <title>Alen's Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
@@ -70,7 +70,7 @@
           <div class="card-body">
             <div class="h4 mt-0 title">Over Mij</div>
             <p>Hallo, mijn naam is Alen Tarabar. Ben op zoek naar een plek waar mijn ICT carrière kan starten als Full Stack Developer en/of Tester.</p>
-            <p>Ik doe altijd mijn best, dat laat ik zien in mijn prestaties en heb vertrouwen dat ik nog verder groeien als ict'er.
+            <p>Ik doe altijd mijn best, dat laat ik zien in mijn prestaties en heb vertrouwen dat ik nog verder ga groeien als ict'er.
             </p>
           </div>
         </div>
@@ -164,7 +164,7 @@
   <div class="container">
     <div class="h4 text-center mb-4 title">Projecten</div>
     <div class="row">
-      <a href="projecten/applicaties.html" target="_blank">Click hier voor mijn meest recente applicaties</a>
+      <a href="projecten/applicaties.html" target="_blank">  Click hier voor mijn meest recente applicaties</a>
   </div>
 </div>
 <div class="section" id="experience">
@@ -181,7 +181,7 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Tester</div>
-            <p>Als de enige Tester mocht ik mijn eigen Testing Tools kiezen en zelf een testomgeving opzetten, 
+            <p>Als enige Tester mocht ik mijn eigen Testing Tools kiezen en zelf een testomgeving opzetten, 
               van het maken van test scenario's, omzetten tot flow charts, 
               die op prioriteit rangschikken en uitvoeren waarvan het resultaat werd gedeeld met collega’s. </p>
           </div>
@@ -275,7 +275,7 @@
                 <div class="col-md-6">
                   <div class="card-body">
                     <form action="https://formspree.io/f/xyyljnrw" method="POST">
-                      <div class="p pb-3"><strong>Interesse of Vragen? Neem gerust contact op hier </strong></div>
+                      <div class="p pb-3"><strong>Interesse of Vragen?</strong></div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
