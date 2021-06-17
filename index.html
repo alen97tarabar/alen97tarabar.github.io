@@ -1,131 +1,346 @@
 <!DOCTYPE html>
-<html lang="en">
-<head> 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title> Alen's Website </title>
-
-<!--verandert de kleur op mobiel-->
-<meta name="theme-color" content="#45e0ff">
-<!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#45e0ff">
-<!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#45e0ff">
-
-<link rel="stylesheet" type="text/css" href="style.css">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://kit.fontawesome.com/060b795035.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
-
-<div id="loading">
-<center>
-  <img id="loading-image" src="Images/289.gif" alt="Loading..." />
-</center>
-</div>
-
-<div class="bg"> 
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #474747!important; position: static; height: 8.2%; width: 100%;">
-  <a class="navbar-brand" href="#">HOME.</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="nav navbar-nav navbar-right">
-      <li class="nav-item active">
-        <a class="nav-link" href="BlockBreakerWebV1.1/Showcase.html">SHOWCASE. <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">OTHER.</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          LANGUAGE.
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: grey;">
-          <a class="dropdown-item" href="Home-EN.html"><img alt="engels" class="flag" src="Images/EN-ICON.jpg" width="35" height="30">.English</a>
-          <a class="dropdown-item" href="Home.html"><img alt="nederlands" class="flag" src="Images/NL-ICON.jpg" width="35" height="30">.Dutch</a>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creative CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top" style="overflow: hidden;">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">HOME</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Over Mij</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Projecten</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Ervaring</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#opleidingen">Opleidingen</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/image_bomen.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="images/foto.png" alt="Image"/></a></div>
+          <div class="h2 title">Alen Tarabar</div>
+          <p class="category text-white">Full Stack Developer & Tester</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contact</a><a class="btn btn-primary" href="Resume.html" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Bekijk CV</a>
         </div>
-      </li>
-    </ul>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/alen-tarabar-543a55159/" target="_blank" rel="tooltip" title="LinkedIn"><i class="fa fa-linkedin"></i></a></div>
+        </div>
+      </div>
+    </div>
   </div>
-</nav>
-
-<script>
-$(document).ready(function(){
-  $(".navbar-toggler").click(function(){
-    $("#container").toggle(1000);
-  });
-});
-</script>
-
-<header id="section">
-<br>
-  <h1>Alen Tarabar</h1>
-</header>
-
-<div id="container">
-
-<div class="column-left"> 
-	<div id="column-left-link"> <a href="Profile.html">.PROFILE</a> </div>
 </div>
-
-<div class="column-center">
-	<div id="column-center-link"> <a href="Resume.html" target="_blank">.RESUME.</a> </div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p>Hallo, mijn naam is Alen Tarabar. Full Stack Developer en Tester.</p>
+            <p>Stop hier een beetje tekst</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Over Mij</div>
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-8">23</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">alen97tarabar@gmail.com</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Tel:</strong></div>
+              <div class="col-sm-8">+31 6 43853588</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Stad:</strong></div>
+              <div class="col-sm-8">Noord-Holland, Purmerend</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Talen:</strong></div>
+              <div class="col-sm-8">Nederlands, Engels, Kroatisch en Bosnisch</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div class="column-right"> 
-	<div id="column-right-link"> <a href="#section2">CONTACT.</a> </div>
+<div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Skills</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">PHP</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Selenium</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
+<div class="section" id="portfolio">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Projecten</div>
+    <div class="row">
+      <a href="projecten/applicaties.html" target="_blank">Click hier voor mijn meest recente applicaties</a>
+  </div>
 </div>
-
-<div class="main" id="section1">
-
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Ervaring</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>September 2016 - Februari 2017</p>
+            <div class="h5">WebUser</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Web Developer</div>
+            <p>Als Web Developer leerde ik websites maken in WordPress en hoe je een eigen draai aan geeft.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Maart 2018 - December 2018</p>
+            <div class="h5">GrandVision</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Tester</div>
+            <p>Als de enige Tester mocht ik mijn eigen Testing Tools kiezen en zelf een testomgeving opzetten, 
+              van het maken van test scenario's, omzetten tot flow charts, 
+              die op prioriteit rangschikken en uitvoeren, waarvan het resultaat werd gedeeld met collega’s</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div id="section2" style="margin: 25% 0% 0% 0%; color: white; text-shadow: 7px 7px 2px dimgrey;">
-		<h3> 
-			<center>
-			<p> <br> Naam: Alen Tarabar
-				<br>Land: Nederland
-				<br>Provincie: Noord-Holland
-				<br>Stad: Purmerend
-				<br>Tel: 31 6 43853588
-				<br>Email: alen97tarabar@gmail.com
-			</p>
-			<p> <a href="#"> <i class="fas fa-angle-double-up" style="font-size: 3rem"></i> </a> </p>
-			</center>
-		</h3>
+<div class="section" id="opleidingen">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Opleidingen</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>07/07/2010 - 31/08/2015</p>
+            <div class="h5">VMBO TL Niveau 4</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Middelbare School</div>
+            <p class="category">Antoni Gaudi</p>
+            <p>Behaald</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>01/08/2015 - 12/12/2018</p>
+            <div class="h5">MBO Niveau 4</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Regio College van Zaandam</div>
+            <p class="category">Applicatie Ontwikkelaar</p>
+            <p>Behaald</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>27/02/2021 - 18/05/2021</p>
+            <div class="h5">Opleiding</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Bit Academy</div>
+            <p class="category">Full Stack Webdeveloper</p>
+            <p>Behaald</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div class="footer" style="position: fixed; left: 0; bottom: 0; width: 100%; height: 5%; background-color: #279e94; color: white; text-align: center;">
-<p>LinkedIn <a href="https://www.linkedin.com/in/alen-tarabar-543a55159/" style="font-size: 2.2rem !important;" class="fab fa-linkedin"></a> Gmail <a href="mailto:alen97tarabar@gmail.com" style="font-size: 2.2rem !important;" class="fas fa-envelope"></a></p>
-</div>
-
-<script>
-  $(window).on('load', function() {
-    $('#loading').hide();
-  });
-</script>
-<!-- <div class="image-head">
-<img src="">
-</div>
-
-<i class="fas fa-gamepad fa-5x fa-spin"></i>
--->
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
- 
-</div>
-</body>
+<div class="section" id="contact" style="bottom: -200px">
+  <div class="cc-contact-information">
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Kom in Contact</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <form action="https://formspree.io/f/xyyljnrw" method="POST">
+                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <p class="mb-0"><strong>Stad: </strong></p>
+                    <p class="pb-2">Noord-Holland, Purmerend</p>
+                    <p class="mb-0"><strong>Tel:</strong></p>
+                    <p class="pb-2">+31 6 43853588</p>
+                    <p class="mb-0"><strong>Email:</strong></p>
+                    <p>alen97tarabar@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="footer">
+      <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">Alen Tarabar</div>
+      <div class="text-center text-muted">
+        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
 </html>
