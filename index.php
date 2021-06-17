@@ -286,7 +286,7 @@
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Betreft" placeholder="Subject" required="required"/>
+                            <input class="form-control" type="text" name="subject" placeholder="Betreft" required="required"/>
                           </div>
                         </div>
                       </div>
