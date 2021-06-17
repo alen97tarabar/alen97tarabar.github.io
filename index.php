@@ -51,7 +51,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/foto.png" alt="Image"/></a></div>
           <div class="h2 title">Alen Tarabar</div>
-          <p class="category text-white">Full Stack Developer & Tester</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contact</a><a class="btn btn-primary" href="Resume.html" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Bekijk CV</a>
+          <p class="category text-white">Full Stack Webdeveloper & Tester</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contact</a><a class="btn btn-primary" href="Resume.html" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Bekijk CV</a>
         </div>
       </div>
       <div class="section">
@@ -68,16 +68,17 @@
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
-            <p>Hallo, mijn naam is Alen Tarabar. Full Stack Developer en Tester.</p>
-            <p>Stop hier een beetje tekst</p>
+            <div class="h4 mt-0 title">Over Mij</div>
+            <p>Hallo, mijn naam is Alen Tarabar. Ben op zoek naar een plek waar mijn ICT carrière kan starten als Full Stack Developer en/of Tester.</p>
+            <p>Ik doe altijd mijn best, dat laat ik zien in mijn prestaties en heb vertrouwen dat ik veel waarde kan toevoegen bij het bedrijf dat mij aanneemt
+            </p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">Over Mij</div>
+            <div class="h4 mt-0 title">Algemene Info</div>
             <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Leeftijd:</strong></div>
               <div class="col-sm-8">23</div>
             </div>
             <div class="row mt-3">
@@ -173,22 +174,6 @@
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>September 2016 - Februari 2017</p>
-            <div class="h5">WebUser</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Web Developer</div>
-            <p>Als Web Developer leerde ik websites maken in WordPress en hoe je een eigen draai aan geeft.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
             <p>Maart 2018 - December 2018</p>
             <div class="h5">GrandVision</div>
           </div>
@@ -198,7 +183,24 @@
             <div class="h5">Tester</div>
             <p>Als de enige Tester mocht ik mijn eigen Testing Tools kiezen en zelf een testomgeving opzetten, 
               van het maken van test scenario's, omzetten tot flow charts, 
-              die op prioriteit rangschikken en uitvoeren, waarvan het resultaat werd gedeeld met collega’s</p>
+              die op prioriteit rangschikken en uitvoeren waarvan het resultaat werd gedeeld met collega’s. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>September 2016 - Februari 2017</p>
+            <div class="h5">WebUser</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Web Developer</div>
+            <p>Als Web Developer leerde ik websites maken in WordPress en hoe je een eigen draai aan geeft.
+            </p>
           </div>
         </div>
       </div>
@@ -212,14 +214,14 @@
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
-            <p>07/07/2010 - 31/08/2015</p>
-            <div class="h5">VMBO TL Niveau 4</div>
+            <p>27/02/2021 - 18/05/2021</p>
+            <div class="h5">Opleiding</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Middelbare School</div>
-            <p class="category">Antoni Gaudi</p>
+            <div class="h5">Bit Academy</div>
+            <p class="category">Full Stack Webdeveloper</p>
             <p>Behaald</p>
           </div>
         </div>
@@ -246,14 +248,14 @@
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
-            <p>27/02/2021 - 18/05/2021</p>
-            <div class="h5">Opleiding</div>
+            <p>07/07/2010 - 31/08/2015</p>
+            <div class="h5">VMBO TL Niveau 4</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Bit Academy</div>
-            <p class="category">Full Stack Webdeveloper</p>
+            <div class="h5">Antoni Gaudi</div>
+            <p class="category">Middelbare School</p>
             <p>Behaald</p>
           </div>
         </div>
