@@ -49,7 +49,7 @@
       <div class="page-header-image" data-parallax="true" style="background-image: url('images/image_bomen.jpg')"></div>
       <div class="container">
         <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="images/foto.png" alt="Image"/></a></div>
+          <div class="cc-profile-image"><a href="#"><img src="images/foto.jpg" alt="Image"/></a></div>
           <div class="h2 title">Alen Tarabar</div>
           <p class="category text-white">Full Stack Webdeveloper & Tester</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contact</a><a class="btn btn-primary" href="Resume.html" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Bekijk CV</a>
         </div>
