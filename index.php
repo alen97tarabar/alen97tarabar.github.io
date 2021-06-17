@@ -70,7 +70,7 @@
           <div class="card-body">
             <div class="h4 mt-0 title">Over Mij</div>
             <p>Hallo, mijn naam is Alen Tarabar. Ben op zoek naar een plek waar mijn ICT carrière kan starten als Full Stack Developer en/of Tester.</p>
-            <p>Ik doe altijd mijn best, dat laat ik zien in mijn prestaties en heb vertrouwen dat ik veel waarde kan toevoegen bij het bedrijf dat mij aanneemt
+            <p>Ik doe altijd mijn best, dat laat ik zien in mijn prestaties en heb vertrouwen dat ik nog verder groeien als ict'er.
             </p>
           </div>
         </div>
@@ -275,18 +275,18 @@
                 <div class="col-md-6">
                   <div class="card-body">
                     <form action="https://formspree.io/f/xyyljnrw" method="POST">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="p pb-3"><strong>Interesse of Vragen? Neem gerust contact op hier </strong></div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                            <input class="form-control" type="text" name="name" placeholder="Naam" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                            <input class="form-control" type="text" name="Betreft" placeholder="Subject" required="required"/>
                           </div>
                         </div>
                       </div>
@@ -300,13 +300,13 @@
                       <div class="row mb-3">
                         <div class="col">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                            <textarea class="form-control" name="message" placeholder="Jouw Message" required="required"></textarea>
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
-                          <button class="btn btn-primary" type="submit">Send</button>
+                          <button class="btn btn-primary" type="submit">Verstuur</button>
                         </div>
                       </div>
                     </form>
@@ -332,8 +332,8 @@
 </div></div>
     </div>
     <footer class="footer">
-      <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
-      <div class="h4 title text-center">Alen Tarabar</div>
+      <div class="container text-center"></div>
+      <div class="h4 title text-center" style="color: white">Alen Tarabar</div>
       <div class="text-center text-muted">
         <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
       </div>
