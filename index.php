@@ -165,12 +165,12 @@
     <div class="h4 text-center mb-4 title">Projecten</div>
     <div class="row">
       <a href="projecten/applicaties.html" target="_blank">  Click hier voor mijn meest recente applicaties</a>
-      <br>
+  </div>
+  <br>
       <h3>Updates</h3>
       <ul> 
         <li><a href="projecten/index.html" target="_blank"> Game - 26/7/2021</a></li>
       </ul>
-  </div>
 </div>
 <div class="section" id="experience">
   <div class="container cc-experience">
