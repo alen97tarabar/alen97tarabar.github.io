@@ -166,7 +166,10 @@
     <div class="row">
       <a href="projecten/applicaties.html" target="_blank">  Click hier voor mijn meest recente applicaties</a>
       <br>
-      <a href="projecten/index.html" target="_blank">  Nieuw - 26/7/2021</a>
+      <h3>Updates</h3>
+      <ul> 
+        <li><a href="projecten/index.html" target="_blank"> Game - 26/7/2021</a></li>
+      </ul>
   </div>
 </div>
 <div class="section" id="experience">
