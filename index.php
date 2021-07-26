@@ -165,6 +165,7 @@
     <div class="h4 text-center mb-4 title">Projecten</div>
     <div class="row">
       <a href="projecten/applicaties.html" target="_blank">  Click hier voor mijn meest recente applicaties</a>
+      <a href="projecten/index.html" target="_blank">  Nieuw - 26/7/2021</a>
   </div>
 </div>
 <div class="section" id="experience">
