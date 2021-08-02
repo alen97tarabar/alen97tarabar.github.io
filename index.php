@@ -170,6 +170,7 @@
       <h3>Updates</h3>
       <ul> 
         <li><a href="projecten/index.html" target="_blank"> Game - 26/7/2021</a></li>
+        <li><a href="WebsiteOnePager/index.html" target="_blank"> Website - 02/08/2021</a></li>
       </ul>
 </div>
 <div class="section" id="experience">
