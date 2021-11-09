@@ -171,6 +171,7 @@
       <ul> 
         <li><a href="projecten/index.html" target="_blank"> Game - 26/7/2021</a></li>
         <li><a href="projecten/WebsiteOnepager/index.html" target="_blank"> Website - 02/08/2021</a></li>
+        <li><a href="projecten/website-Album/index.html" target="_blank"> Website Album - 09/11/2021</a></li>
       </ul>
 </div>
 <div class="section" id="experience">
