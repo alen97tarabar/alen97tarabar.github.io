@@ -1,0 +1,31 @@
+
+.card-image {
+    object-fit: cover;
+    height: 225px; 
+    border-radius: 3px 3px 0px 0px;
+}
+
+.noHover {
+    background-color: blue;
+}
+
+.noHover:not(:hover) {
+    background-color: blue;
+}
+
+.frontPageBackground {
+    height: 100vh;
+    background-image: url('images/pexels-background.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.roundedImage {
+    border-radius: 50%;
+    height: 150px;
+    box-shadow: 2px 2px 10px #ffae00;
+}
+
+.textShadow {
+    text-shadow: 2px 2px 2px #000000;
+}
