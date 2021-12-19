@@ -163,7 +163,7 @@
 <div class="section" id="portfolio">
   <div class="container">
   <div class="list-group">
-        <a href="projecten/corona-app/index.html" data-aos="fade-right" class="list-group-item list-group-item-action" aria-current="true">
+        <a href="projecten/corona-app/index.html" target="_blank" data-aos="fade-right" class="list-group-item list-group-item-action" aria-current="true">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">Corona Checker App</h5>
             <small>16-12-21</small>
@@ -171,7 +171,7 @@
           <p class="mb-1">App die de corona gevallen aangeeft, gesorteerd op provincies in Nederland</p>
           <small>JavaScript en Covid api</small>
         </a>
-        <a href="projecten/website-Album/index.html" data-aos="fade-left" class="list-group-item list-group-item-action">
+        <a href="projecten/website-Album/index.html" target="_blank" data-aos="fade-left" class="list-group-item list-group-item-action">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">Foto Album</h5>
             <small class="text-muted">7-12-21</small>
@@ -179,7 +179,7 @@
           <p class="mb-1">Een simpel foto album met aantal views</p>
           <small class="text-muted">Javascript, CountApi, AoS en Lightbox</small>
         </a>
-        <a href="projecten/index.html" data-aos="fade-right" class="list-group-item list-group-item-action" aria-current="true">
+        <a href="projecten/index.html" target="_blank" data-aos="fade-right" class="list-group-item list-group-item-action" aria-current="true">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">Space Invader Game</h5>
             <small>15-10-21</small>
@@ -188,7 +188,7 @@
           <small>Unity</small>
         </a>
 
-        <a href="projecten/WebsiteOnepager/index.html" data-aos="fade-left" class="list-group-item list-group-item-action" aria-current="true">
+        <a href="projecten/WebsiteOnepager/index.html" target="_blank" data-aos="fade-left" class="list-group-item list-group-item-action" aria-current="true">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">Website</h5>
             <small>15-9-21</small>
@@ -196,7 +196,7 @@
           <p class="mb-1">Website template</p>
           <small>HTML, CSS en Bootstrap</small>
         </a>
-        <a href="projecten/applicaties.html" data-aos="fade-up" class="bg-primary text-white text-center list-group-item list-group-item-action">
+        <a href="projecten/applicaties.html" target="_blank" data-aos="fade-up" class="bg-primary text-white text-center list-group-item list-group-item-action">
           <h5><p class="mb-1">Overige</p></h5>
           <span class="badge bg-info rounded-pill">8</span>
         </a>
