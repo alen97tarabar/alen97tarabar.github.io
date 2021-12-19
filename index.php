@@ -163,14 +163,6 @@
 <div class="section" id="portfolio">
   <div class="container">
   <div class="list-group">
-        <a href="projecten/motivatiebrief/motivatie-motivation.html" data-aos="fade-left" class="list-group-item list-group-item-action" aria-current="true">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Motivatiebrief</h5>
-            <small>19-12-21</small>
-          </div>
-          <p class="mb-1">Motivatiebrief template in engels en nederlands</p>
-          <small>JavaScript en GreenSocks</small>
-        </a>
         <a href="projecten/corona-app/index.html" data-aos="fade-right" class="list-group-item list-group-item-action" aria-current="true">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">Corona Checker App</h5>
