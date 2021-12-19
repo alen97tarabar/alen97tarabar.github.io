@@ -162,17 +162,53 @@
 </div>
 <div class="section" id="portfolio">
   <div class="container">
-    <div class="h4 text-center mb-4 title">Projecten</div>
-    <div class="row">
-      <a href="projecten/applicaties.html" target="_blank">  Click hier voor mijn meest recente applicaties</a>
-  </div>
-  <br>
-      <h3>Updates</h3>
-      <ul> 
-        <li><a href="projecten/index.html" target="_blank"> Game - 26/7/2021</a></li>
-        <li><a href="projecten/WebsiteOnepager/index.html" target="_blank"> Website - 02/08/2021</a></li>
-        <li><a href="projecten/website-Album/index.html" target="_blank"> Website Album - 09/11/2021</a></li>
-      </ul>
+  <div class="list-group">
+        <a href="projecten/motivatiebrief/motivatie-motivation.html" data-aos="fade-left" class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Motivatiebrief</h5>
+            <small>19-12-21</small>
+          </div>
+          <p class="mb-1">Motivatiebrief template in engels en nederlands</p>
+          <small>JavaScript en GreenSocks</small>
+        </a>
+        <a href="projecten/corona-app/index.html" data-aos="fade-right" class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Corona Checker App</h5>
+            <small>16-12-21</small>
+          </div>
+          <p class="mb-1">App die de corona gevallen aangeeft, gesorteerd op provincies in Nederland</p>
+          <small>JavaScript en Covid api</small>
+        </a>
+        <a href="projecten/website-Album/index.html" data-aos="fade-left" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Foto Album</h5>
+            <small class="text-muted">7-12-21</small>
+          </div>
+          <p class="mb-1">Een simpel foto album met aantal views</p>
+          <small class="text-muted">Javascript, CountApi, AoS en Lightbox</small>
+        </a>
+        <a href="projecten/index.html" data-aos="fade-right" class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Space Invader Game</h5>
+            <small>15-10-21</small>
+          </div>
+          <p class="mb-1">Een Space Invader clone</p>
+          <small>Unity</small>
+        </a>
+
+        <a href="projecten/WebsiteOnepager/index.html" data-aos="fade-left" class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Website</h5>
+            <small>15-9-21</small>
+          </div>
+          <p class="mb-1">Website template</p>
+          <small>HTML, CSS en Bootstrap</small>
+        </a>
+        <a href="projecten/applicaties.html" data-aos="fade-up" class="bg-primary text-white text-center list-group-item list-group-item-action">
+          <h5><p class="mb-1">Overige</p></h5>
+          <span class="badge bg-info rounded-pill">8</span>
+        </a>
+      </div>
 </div>
 <div class="section" id="experience">
   <div class="container cc-experience">
