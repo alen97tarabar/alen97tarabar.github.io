@@ -79,7 +79,7 @@
             <div class="h4 mt-0 title">Algemene Info</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Leeftijd:</strong></div>
-              <div class="col-sm-8">23</div>
+              <div class="col-sm-8">24</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -162,6 +162,7 @@
 </div>
 <div class="section" id="portfolio">
   <div class="container">
+  <div class="h4 text-center mb-4 title">Projecten</div>
   <div class="list-group">
         <a href="projecten/corona-app/index.html" target="_blank" data-aos="fade-right" class="list-group-item list-group-item-action" aria-current="true">
           <div class="d-flex w-100 justify-content-between">
