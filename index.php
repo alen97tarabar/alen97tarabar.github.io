@@ -206,6 +206,25 @@
 <div class="section" id="experience">
   <div class="container cc-experience">
     <div class="h4 text-center mb-4 title">Ervaring</div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>April 2022 - Juni 2022</p>
+            <div class="h5">Leapforce</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Web Developer</div>
+            <p>Als webdeveloper verhoogde ik de SEO scores en algemene snelheden van websites. 
+              Daarnaast voegde ik functionaliteiten toe aan bestaande websites. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
